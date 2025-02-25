@@ -12,11 +12,14 @@ git 'https://github.com/22p61a05o9/demo2_rep.git'
 }
 steps('build')
 {
-steps(
+steps
+{
 sh'javac hello.java'
 }
 }
 stage('run')
+{
+steps
 {
 sh 'java hello'
 }
