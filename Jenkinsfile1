@@ -5,7 +5,8 @@ stages
 {
 stage('clone')
 {
-steps{
+steps
+{
 git 'https://github.com/22p61a05o9/demo2_rep.git'
 }
 }
